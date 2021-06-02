@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="938.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMain">
+   <children>
+      <TableView layoutY="46.0" prefHeight="355.0" prefWidth="937.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="name" prefWidth="123.2228012084961" text="Name" />
+            <TableColumn fx:id="total" prefWidth="94.44558715820312" text="Total" />
+            <TableColumn fx:id="hp" prefWidth="75.0" text="HP" />
+            <TableColumn fx:id="attack" prefWidth="75.0" text="Attack" />
+            <TableColumn fx:id="defence" prefWidth="75.0" text="Defence " />
+            <TableColumn fx:id="spatk" prefWidth="75.0" text="Sp.Atk" />
+            <TableColumn fx:id="spdef" prefWidth="75.0" text="Sp.Def" />
+            <TableColumn fx:id="speed" prefWidth="75.0" text="Speed" />
+            <TableColumn fx:id="type" prefWidth="191.01190185546875" text="Type" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
